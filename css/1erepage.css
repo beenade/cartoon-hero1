@@ -1,6 +1,6 @@
 ﻿body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /*ces 3 sont les plus communes*/
     font-size: 20px;
     line-height: 30px;
 }
@@ -36,16 +36,16 @@ main img{
     max-width: 100%;
 }
 
-h2 {
+h2 { /* définit le css pour tout les h2*/
     font-size: 35px;
     color: #e70c19;
     margin: 40px 0 10px;
 }
 
-a{
+a{ /*définit pour les ancres*/
     color: #e70c19;
 }
-a:hover{
+a:hover{ /*ici définit la couleur quand survolé par la souris*/
     color: #483a94
 }
 
@@ -65,7 +65,7 @@ footer a {
         background-color: transparent
     }
 
-p.caption{
+p.caption{ /*ici définit le style du sous titre dans le paragraphe 1*/
     color: #9999;
     font-style:italic;
     margin-top: 0;
